@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Sanggar Bundaku: Pusat latihan seni tari anak & remaja terbaik di Sleman, Jogja. Tersedia sewa baju adat lengkap dengan aksesoris, jasa rias, dan pementasan tari profesional.">
+    <meta name="keywords"
+        content="sanggar tari anak di jogja, latihan tari anak sleman, kursus tari tradisional jogja, sewa baju adat lengkap jogja, sewa kostum daerah anak, jasa rias tari sleman, sanggar tari bundaku">
+    <meta name="author" content="Sanggar Bundaku">
+    <link rel="canonical" href="https://sanggarbundaku.com">
+
+    <!-- Open Graph (Facebook/WhatsApp/dll) -->
+    <meta property="og:title" content="Sanggar Bundaku - Latihan Tari Anak & Sewa Baju Adat Lengkap Jogja">
+    <meta property="og:description"
+        content="Pusat pelatihan seni tari anak & sewa baju adat terlengkap di Sleman, Jogja. Lestarikan budaya Nusantara bersama kami.">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80">
+    <meta property="og:url" content="https://sanggarbundaku.com">
+    <meta property="og:type" content="website">
+
+    <title>Sanggar Bundaku - Latihan Tari Anak & Sewa Baju Adat Lengkap di Jogja</title>
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Sanggar Bundaku",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80",
+      "@id": "https://sanggarbundaku.com",
+      "url": "https://sanggarbundaku.com",
+      "telephone": "+6281904116067",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Perum Sukoharjo Indah Blok N-201, Losari, Sukoharjo, Kec. Ngaglik",
+        "addressLocality": "Sleman",
+        "addressRegion": "DIY",
+        "postalCode": "55581",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -7.7123,
+        "longitude": 110.4012
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "08:00",
+        "closes": "21:00"
+      },
+      "sameAs": [
+        "https://www.instagram.com/sanggarbundaku",
+        "https://www.youtube.com/@sanggarbundaku"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Latihan Tari Anak",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Sanggar Bundaku"
+      },
+      "areaServed": "Sleman, Yogyakarta",
+      "description": "Program pelatihan seni tari tradisional Nusantara khusus untuk anak-anak (SD) dan remaja (SMP/SMA)."
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Sewa Baju Adat Lengkap",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Sanggar Bundaku"
+      },
+      "areaServed": "Sleman, Yogyakarta",
+      "description": "Persewaan busana adat Nusantara dan kostum tari lengkap dengan aksesoris pendukung."
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f4fbf6',
+                            100: '#e4f5e9',
+                            500: '#2d8a51',
+                            800: '#1F3F27', // forestGreen
+                            900: '#152b1a',
+                        },
+                        accent: {
+                            DEFAULT: '#E28DA2', // sandstoneCream
+                            hover: '#d16a83',
+                            light: '#fdf3f5'
+                        }
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Outfit', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'glass': '0 8px 32px 0 rgba(31, 63, 39, 0.05)',
+                        'floating': '0 10px 40px -10px rgba(37, 211, 102, 0.5)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Outfit', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .hero-pattern {
+            background-image: linear-gradient(to right, rgba(31, 63, 39, 0.9), rgba(31, 63, 39, 0.7)),
+                url('https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        /* Aspect ratio for videos */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 16px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 16px;
+        }
+
+        /* Floating WA Button */
+        .wa-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 100;
+        }
+
+        .wa-button {
+            animation: pulse-green 2s infinite;
+        }
+
+        .wa-tooltip {
+            opacity: 0;
+            transform: translateX(20px);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            pointer-events: none;
+        }
+
+        .wa-float:hover .wa-tooltip {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        @keyframes pulse-green {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
+
+        /* Decorative Blob */
+        .blob-bg {
+            position: absolute;
+            filter: blur(80px);
+            z-index: -1;
+            opacity: 0.4;
+            animation: float 10s ease-in-out infinite alternate;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px) scale(1);
+            }
+
+            100% {
+                transform: translateY(-30px) scale(1.1);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-[#FDFBF9] text-brand-800 relative overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="glass-nav fixed w-full top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 md:px-8 py-4 flex justify-between items-center">
+            <div
+                class="text-2xl md:text-3xl font-extrabold tracking-tight text-brand-800 flex items-center gap-3 group">
+                <img src="./logo.png" alt="Logo Sanggar Bundaku"
+                    class="h-10 md:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
+                SANGGAR BUNDAKU
+            </div>
+
+            <!-- Desktop Menu -->
+            <div
+                class="hidden lg:flex items-center space-x-8 font-semibold text-sm uppercase tracking-widest text-brand-900">
+                <a href="#tentang" class="hover:text-accent transition-colors relative group"
+                    title="Tentang Sanggar Bundaku">
+                    Tentang
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all group-hover:w-full"></span>
+                </a>
+                <a href="#layanan" class="hover:text-accent transition-colors relative group" title="Layanan Kami">
+                    Layanan
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all group-hover:w-full"></span>
+                </a>
+                <a href="#galeri" class="hover:text-accent transition-colors relative group" title="Galeri Karya">
+                    Galeri
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all group-hover:w-full"></span>
+                </a>
+                <a href="#kontak" class="hover:text-accent transition-colors relative group" title="Hubungi Kami">
+                    Kontak
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all group-hover:w-full"></span>
+                </a>
+                <a href="https://wa.me/6281904116067?text=Halo%20Sanggar%20Bundaku,%20saya%20ingin%20bertanya%20lebih%20lanjut."
+                    target="_blank" title="Chat via WhatsApp"
+                    class="bg-brand-800 text-white px-6 py-2.5 rounded-full hover:bg-brand-900 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> Hubungi Kami
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="lg:hidden text-brand-800 text-2xl focus:outline-none">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu"
+            class="hidden lg:hidden bg-white border-t border-gray-100 px-4 py-4 space-y-4 shadow-lg absolute w-full">
+            <a href="#tentang" class="block font-semibold text-brand-800 hover:text-accent">Tentang</a>
+            <a href="#layanan" class="block font-semibold text-brand-800 hover:text-accent">Layanan</a>
+            <a href="#galeri" class="block font-semibold text-brand-800 hover:text-accent">Galeri</a>
+            <a href="#kontak" class="block font-semibold text-brand-800 hover:text-accent">Kontak</a>
+            <a href="https://wa.me/6281904116067?text=Halo%20Sanggar%20Bundaku..." target="_blank"
+                class="block w-full text-center bg-brand-800 text-white py-3 rounded-xl font-bold">
+                <i class="fa-brands fa-whatsapp mr-1"></i> Hubungi Kami
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header
+        class="hero-pattern min-h-[90vh] flex items-center justify-center text-center text-white relative px-4 pt-20">
+        <!-- Overlay decorative elements -->
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-[rgba(31,63,39,0.3)] to-brand-900"></div>
+
+        <div class="relative z-10 max-w-4xl mx-auto" data-aos="fade-up" data-aos-duration="1000">
+            <span
+                class="inline-block py-1 px-3 rounded-full bg-accent/20 border border-accent/30 text-accent font-semibold tracking-widest text-xs uppercase mb-6 backdrop-blur-sm">
+                Seni Tari & Rias Tradisional
+            </span>
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight drop-shadow-lg">
+                Berkreasi & <span class="text-accent italic font-heading">Berprestasi</span>
+            </h1>
+            <p
+                class="text-lg md:text-2xl mb-10 text-stone-200 font-light leading-relaxed max-w-2xl mx-auto drop-shadow-md">
+                Pusat <strong>latihan tari anak</strong> dan <strong>sewa baju adat lengkap</strong> di Sukoharjo,
+                Ngaglik, Sleman. Mari lestarikan budaya bersama Sanggar Bundaku.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://wa.me/6281904116067?text=Halo%20Sanggar%20Bundaku,%20saya%20tertarik%20untuk%20mendaftar%20kelas%20tari."
+                    target="_blank" title="Daftar Latihan Tari Anak"
+                    class="w-full sm:w-auto bg-accent text-white hover:bg-accent-hover px-8 py-4 rounded-full font-bold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                    Daftar Sekarang <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#layanan" title="Lihat Pilihan Layanan"
+                    class="w-full sm:w-auto bg-white/10 backdrop-blur-md border border-white/30 text-white hover:bg-white hover:text-brand-800 px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 flex items-center justify-center gap-2">
+                    Jelajahi Layanan
+                </a>
+            </div>
+
+            <!-- Scroll indicator -->
+            <div
+                class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce flex flex-col items-center opacity-70">
+                <span class="text-xs uppercase tracking-widest mb-2 font-semibold">Scroll</span>
+                <i class="fa-solid fa-chevron-down border-2 p-2 rounded-full"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="tentang" class="py-24 relative overflow-hidden">
+        <!-- Abstract Shapes -->
+        <div class="blob-bg bg-accent/20 w-96 h-96 rounded-full top-0 left-[-10%]"></div>
+        <div
+            class="blob-bg bg-brand-500/10 w-[500px] h-[500px] rounded-full bottom-[-10%] right-[-5%] animation-delay-2000">
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+                <!-- Images / Visual -->
+                <div class="relative" data-aos="fade-right">
+                    <div class="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="./founder.jpg" alt="Sri Supeni - Pendiri Sanggar Bundaku dan Pelatih Tari"
+                            class="w-full h-auto object-cover transform hover:scale-105 transition duration-700">
+                    </div>
+                    <!-- Stats Card Floating -->
+                    <div class="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-glass border border-gray-100 z-20 flex gap-6"
+                        data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-center">
+                            <span class="block text-4xl font-extrabold text-accent mb-1">45+</span>
+                            <span class="text-xs font-bold uppercase tracking-widest text-gray-500">Siswa Aktif</span>
+                        </div>
+                        <div class="w-px bg-gray-200"></div>
+                        <div class="text-center">
+                            <span class="block text-4xl font-extrabold text-accent mb-1">Top 21</span>
+                            <span class="text-xs font-bold uppercase tracking-widest text-gray-500">Indonesia
+                                Menari</span>
+                        </div>
+                    </div>
+                    <!-- Decorative Element -->
+                    <div class="absolute -top-6 -left-6 w-32 h-32 bg-brand-100 rounded-full z-0"></div>
+                </div>
+
+                <!-- Content -->
+                <div data-aos="fade-left">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="w-12 h-0.5 bg-accent"></span>
+                        <span class="text-accent font-bold uppercase tracking-widest text-sm">Tentang Sanggar</span>
+                    </div>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-8 text-brand-800 leading-tight">
+                        Membangun Karakter <br> <span class="text-brand-500 italic font-heading font-normal">Melalui
+                            Seni</span>
+                    </h2>
+
+                    <p class="mb-6 text-lg leading-relaxed text-gray-600 font-light">
+                        Didirikan oleh <strong>Sri Supeni</strong>, Sanggar Bundaku adalah pusat kreativitas bagi
+                        anak-anak dan remaja untuk mendalami keindahan seni tari tradisional Indonesia.
+                    </p>
+
+                    <div class="bg-white rounded-2xl p-6 shadow-sm border border-brand-50 relative mb-8">
+                        <i class="fa-solid fa-quote-left absolute top-4 left-4 text-4xl text-brand-100"></i>
+                        <p class="relative z-10 italic text-gray-600 leading-relaxed pt-4">
+                            "Kami berkomitmen mengekspresikan ide dan visi imajinasi dalam setiap tarian, dengan
+                            semangat untuk selalu meningkatkan keterampilan di setiap bidang seni."
+                        </p>
+                    </div>
+
+                    <a href="https://wa.me/6281904116067?text=Halo%20Sanggar%20Bundaku,%20saya%20ingin%20tanya%20profil%20lengkap%20sanggar."
+                        target="_blank"
+                        class="inline-flex items-center gap-2 font-bold text-brand-800 hover:text-accent transition group">
+                        Kenali Kami Lebih Jauh
+                        <span
+                            class="w-8 h-8 rounded-full bg-brand-50 flex items-center justify-center group-hover:bg-accent group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-arrow-right text-sm"></i>
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="layanan" class="bg-brand-50 py-24 px-4 relative">
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+                <div class="flex items-center justify-center gap-3 mb-4">
+                    <span class="w-8 h-0.5 bg-accent"></span>
+                    <span class="text-accent font-bold uppercase tracking-widest text-sm">Layanan Kami</span>
+                    <span class="w-8 h-0.5 bg-accent"></span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold text-brand-800 mb-6">Pilihan Layanan Seni</h2>
+                <p class="text-gray-600 text-lg">Pilih layanan yang sesuai dengan kebutuhan Anda. Klik tombol WhatsApp
+                    untuk konsultasi langsung.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-3xl p-8 shadow-sm hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-brand-100 flex flex-col justify-between h-full group"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <div>
+                        <div
+                            class="w-16 h-16 rounded-2xl bg-brand-50 flex items-center justify-center mb-6 group-hover:bg-brand-800 group-hover:text-white transition-colors duration-300">
+                            <i
+                                class="fa-solid fa-person-rays text-3xl text-brand-500 group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-brand-800">Latihan Tari Anak</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed mb-8">Program kursus tari tradisional khusus
+                            untuk anak-anak dan remaja. Melatih motorik, kepercayaan diri, dan kecintaan pada budaya
+                            sejak dini.</p>
+                    </div>
+                    <a href="https://wa.me/6281904116067?text=Halo,%20saya%20ingin%20mendaftar%20kelas%20tari%20di%20Sanggar%20Bundaku."
+                        target="_blank"
+                        class="text-center font-bold bg-brand-50 text-brand-800 rounded-xl py-3 hover:bg-brand-800 hover:text-white transition w-full block">
+                        Daftar Kelas →
+                    </a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-3xl p-8 shadow-sm hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-brand-100 flex flex-col justify-between h-full group"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <div>
+                        <div
+                            class="w-16 h-16 rounded-2xl bg-accent-light flex items-center justify-center mb-6 group-hover:bg-accent group-hover:text-white transition-colors duration-300">
+                            <i
+                                class="fa-solid fa-paintbrush text-3xl text-accent group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-brand-800">Jasa Rias</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed mb-8">Layanan rias panggung profesional untuk
+                            pementasan tari, wisuda, acara Kartinian, hingga rias pengantin adat Jawa yang otentik.</p>
+                    </div>
+                    <a href="https://wa.me/6281904116067?text=Halo,%20saya%20ingin%20bertanya%20tentang%20jasa%20rias."
+                        target="_blank" title="Booking Jasa Rias"
+                        class="text-center font-bold bg-accent-light text-accent rounded-xl py-3 hover:bg-accent hover:text-white transition w-full block">
+                        Booking Rias →
+                    </a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-3xl p-8 shadow-sm hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-brand-100 flex flex-col justify-between h-full group"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <div>
+                        <div
+                            class="w-16 h-16 rounded-2xl bg-brand-50 flex items-center justify-center mb-6 group-hover:bg-brand-800 group-hover:text-white transition-colors duration-300">
+                            <i
+                                class="fa-solid fa-vest text-3xl text-brand-500 group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-brand-800">Sewa Kostum Adat</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed mb-8">Persewaan baju adat daerah terlengkap
+                            untuk anak & dewasa. Setiap kostum disewakan lengkap dengan aksesoris kepala, kalung, dan
+                            kain pendukung.</p>
+                    </div>
+                    <a href="https://wa.me/6281904116067?text=Halo,%20saya%20ingin%20melihat%20katalog%20sewa%20kostum%20tari/adat."
+                        target="_blank" title="Cek Katalog Sewa Kostum Adat Lengkap"
+                        class="text-center font-bold bg-brand-50 text-brand-800 rounded-xl py-3 hover:bg-brand-800 hover:text-white transition w-full block">
+                        Cek Katalog →
+                    </a>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white rounded-3xl p-8 shadow-sm hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-brand-100 flex flex-col justify-between h-full group"
+                    data-aos="fade-up" data-aos-delay="400">
+                    <div>
+                        <div
+                            class="w-16 h-16 rounded-2xl bg-accent-light flex items-center justify-center mb-6 group-hover:bg-accent group-hover:text-white transition-colors duration-300">
+                            <i
+                                class="fa-solid fa-masks-theater text-3xl text-accent group-hover:text-white transition-colors"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-brand-800">Pementasan Tari</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed mb-8">Menyediakan tim penari profesional untuk
+                            mengisi berbagai acara seperti penyambutan tamu, pernikahan, gathering perusahaan, dan
+                            festival.</p>
+                    </div>
+                    <a href="https://wa.me/6281904116067?text=Halo,%20saya%20ingin%20mengundang%20Sanggar%20Bundaku%20untuk%20mengisi%20acara."
+                        target="_blank"
+                        class="text-center font-bold bg-accent-light text-accent rounded-xl py-3 hover:bg-accent hover:text-white transition w-full block">
+                        Undang Kami →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeri" class="py-24 max-w-7xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6" data-aos="fade-down">
+            <div>
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="w-8 h-0.5 bg-accent"></span>
+                    <span class="text-accent font-bold uppercase tracking-widest text-sm">Portofolio</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold text-brand-800">Showcase <span
+                        class="italic font-normal font-heading text-brand-500">Karya</span></h2>
+            </div>
+            <a href="https://www.youtube.com/@sanggarbundaku" target="_blank"
+                class="flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-red-700 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                <i class="fa-brands fa-youtube text-xl"></i> Subscribe YouTube
+            </a>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-x-8 gap-y-12">
+            <!-- Video 1 -->
+            <div class="group relative" data-aos="zoom-in" data-aos-delay="100">
+                <div class="video-container shadow-2xl transition duration-500 group-hover:shadow-brand-800/20">
+                    <iframe src="https://www.youtube.com/embed/O3Htbx_P2ec" title="Tari Kreasi Original Sanggar Bundaku"
+                        frameborder="0" allowfullscreen
+                        class="transition-transform duration-700 group-hover:scale-105"></iframe>
+                    <div
+                        class="absolute inset-0 border-2 border-transparent group-hover:border-accent rounded-16px transition-all pointer-events-none z-10">
+                    </div>
+                </div>
+                <div class="mt-6">
+                    <span class="text-xs font-bold uppercase tracking-widest text-accent mb-2 block">Karya
+                        Original</span>
+                    <h4 class="text-2xl font-bold text-brand-800">Tari Kreasi Original Sanggar Bundaku</h4>
+                </div>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="group relative" data-aos="zoom-in" data-aos-delay="200">
+                <div class="video-container shadow-2xl transition duration-500 group-hover:shadow-brand-800/20">
+                    <iframe src="https://www.youtube.com/embed/uttFIcKimO8" title="Gelar Budaya 2025" frameborder="0"
+                        allowfullscreen class="transition-transform duration-700 group-hover:scale-105"></iframe>
+                    <div
+                        class="absolute inset-0 border-2 border-transparent group-hover:border-accent rounded-16px transition-all pointer-events-none z-10">
+                    </div>
+                </div>
+                <div class="mt-6">
+                    <span class="text-xs font-bold uppercase tracking-widest text-accent mb-2 block">Event Budaya</span>
+                    <h4 class="text-2xl font-bold text-brand-800">Gelar Budaya 2025</h4>
+                </div>
+            </div>
+
+            <!-- Video 3 -->
+            <div class="group relative" data-aos="zoom-in" data-aos-delay="300">
+                <div class="video-container shadow-2xl transition duration-500 group-hover:shadow-brand-800/20">
+                    <iframe src="https://www.youtube.com/embed/SRs9BrVnLfY"
+                        title="Kompetisi Nasional - 20 Besar Indonesia Menari 2025" frameborder="0" allowfullscreen
+                        class="transition-transform duration-700 group-hover:scale-105"></iframe>
+                    <div
+                        class="absolute inset-0 border-2 border-transparent group-hover:border-accent rounded-16px transition-all pointer-events-none z-10">
+                    </div>
+                </div>
+                <div class="mt-6">
+                    <span class="text-xs font-bold uppercase tracking-widest text-accent mb-2 block">Kompetisi
+                        Nasional</span>
+                    <h4 class="text-2xl font-bold text-brand-800">21 Besar Indonesia Menari 2025</h4>
+                </div>
+            </div>
+
+            <!-- Video 4 -->
+            <div class="group relative" data-aos="zoom-in" data-aos-delay="400">
+                <div class="video-container shadow-2xl transition duration-500 group-hover:shadow-brand-800/20">
+                    <iframe src="https://www.youtube.com/embed/feCwDCSGQz4"
+                        title="Pementasan Event / Corporate - Event PT KAI" frameborder="0" allowfullscreen
+                        class="transition-transform duration-700 group-hover:scale-105"></iframe>
+                    <div
+                        class="absolute inset-0 border-2 border-transparent group-hover:border-accent rounded-16px transition-all pointer-events-none z-10">
+                    </div>
+                </div>
+                <div class="mt-6">
+                    <span class="text-xs font-bold uppercase tracking-widest text-accent mb-2 block">Pementasan
+                        Corporate</span>
+                    <h4 class="text-2xl font-bold text-brand-800">Event PT KAI</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action (Bottom) -->
+    <section class="py-20 relative overflow-hidden">
+        <div class="absolute inset-0 bg-brand-800"></div>
+        <!-- Decorative pattern -->
+        <div class="absolute inset-0 opacity-10"
+            style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 32px 32px;">
+        </div>
+
+        <div class="relative z-10 max-w-4xl mx-auto px-4 text-center text-white" data-aos="fade-up">
+            <i
+                class="fa-brands fa-whatsapp text-6xl text-green-400 mb-6 drop-shadow-[0_0_15px_rgba(74,222,128,0.5)] animate-pulse"></i>
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Siap Untuk Berkarya Bersama?</h2>
+            <p class="text-xl text-gray-300 font-light mb-10 max-w-2xl mx-auto">
+                Dapatkan penawaran terbaik untuk kelas tari, sewa kostum, atau jasa rias. Admin kami siap membantu
+                menjawab pertanyaan Anda dengan ramah.
+            </p>
+            <a href="https://wa.me/6281904116067?text=Halo%20Admin%20Sanggar%20Bundaku,%20saya%20ingin%20konsultasi."
+                target="_blank"
+                class="inline-flex items-center justify-center gap-3 bg-[#25D366] text-white hover:bg-[#20b857] px-10 py-5 rounded-full font-bold text-xl shadow-[0_10px_30px_-10px_rgba(37,211,102,0.6)] hover:shadow-[0_15px_40px_-5px_rgba(37,211,102,0.8)] transition-all duration-300 transform hover:-translate-y-1">
+                Chat Admin via WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak" class="bg-brand-900 border-t border-brand-800 pt-20 pb-10 px-4 text-stone-300">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-12 gap-12 text-sm mb-16">
+
+            <div class="md:col-span-5" data-aos="fade-right">
+                <div class="flex items-center gap-3 mb-6 text-white text-2xl md:text-3xl font-bold">
+                    <img src="./logo-white.png" alt="Logo Sanggar Bundaku" class="h-12 md:h-14 w-auto object-contain">
+                    SANGGAR BUNDAKU
+                </div>
+                <p class="leading-relaxed text-gray-400 font-light mb-6 max-w-sm">
+                    Melestarikan kebudayaan Nusantara melalui gerak tari dan karya seni rias untuk mencetak generasi
+                    muda yang berkarakter.
+                </p>
+                <!-- Social media -->
+                <div class="flex gap-4">
+                    <a href="https://www.instagram.com/sanggarbundaku"
+                        class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-accent text-white transition transform hover:scale-110">
+                        <i class="fa-brands fa-instagram text-lg"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@sanggarbundaku"
+                        class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-red-600 text-white transition transform hover:scale-110">
+                        <i class="fa-brands fa-youtube text-lg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="md:col-span-3" data-aos="fade-up" data-aos-delay="100">
+                <h4 class="text-white text-sm font-bold uppercase tracking-widest mb-6 border-l-2 border-accent pl-3">
+                    Hubungi Kami</h4>
+                <ul class="space-y-4 text-gray-400">
+                    <li>
+                        <a href="https://wa.me/6281904116067"
+                            class="hover:text-accent transition flex items-center gap-3">
+                            <i class="fa-brands fa-whatsapp flex-shrink-0 text-lg"></i> 0819-0411-6067
+                        </a>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-map-location-dot mt-1 flex-shrink-0 text-lg"></i>
+                        <span>Perum Sukoharjo Indah Blok N-201, Losari, Sukoharjo, Kec. Ngaglik, Sleman, DIY
+                            55581</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fa-solid fa-user-tie flex-shrink-0 text-lg"></i>
+                        <span>Sri Supeni (Founder)</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-4" data-aos="fade-left" data-aos-delay="200">
+                <div class="bg-white/5 rounded-2xl p-6 border border-white/10 relative overflow-hidden">
+                    <div class="absolute -right-4 -bottom-4 opacity-10 text-9xl">
+                        <i class="fa-solid fa-mask"></i>
+                    </div>
+                    <h4 class="text-white text-sm font-bold uppercase tracking-widest mb-4 relative z-10">Filosofi Kami
+                    </h4>
+                    <p class="leading-relaxed italic text-gray-400 relative z-10 font-light text-base">
+                        "Setiap langkah tarian adalah bentuk ekspresi perasaan, ide, dan visi imajinasi untuk
+                        melestarikan peninggalan budaya Nusantara tercinta."
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="max-w-7xl mx-auto text-center pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-gray-500 text-xs tracking-widest uppercase">
+                &copy;
+                <script>document.write(new Date().getFullYear())</script> Sanggar Bundaku. All Rights Reserved.
+            </p>
+            <p class="text-gray-500 text-xs tracking-widest uppercase">
+                Developed by <span class="font-bold text-gray-400">DEER</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="wa-float flex items-center">
+        <!-- Tooltip -->
+        <div
+            class="wa-tooltip bg-white text-brand-800 font-bold px-4 py-2 rounded-2xl shadow-xl mr-4 text-sm whitespace-nowrap border border-gray-100 relative hidden md:block">
+            Butuh bantuan? Chat kami!
+            <!-- triangle pointer -->
+            <div
+                class="absolute right-[-6px] top-1/2 transform -translate-y-1/2 w-3 h-3 bg-white rotate-45 border-r border-t border-gray-100">
+            </div>
+        </div>
+
+        <a href="https://wa.me/6281904116067?text=Halo%20Sanggar%20Bundaku,%20saya%20ingin%20bertanya%20tentang..."
+            class="wa-button shadow-floating bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl hover:bg-[#20b857] hover:scale-110 transition-all duration-300 relative z-10"
+            target="_blank" title="Chat WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS animations
+        AOS.init({
+            once: true, // whether animation should happen only once - while scrolling down
+            offset: 100, // offset (in px) from the original trigger point
+            duration: 800, // values from 0 to 3000, with step 50ms
+            easing: 'ease-out-cubic', // default easing for AOS animations
+        });
+
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on click link
+        menu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+
+        // Navbar blur on scroll
+        const nav = document.querySelector('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-md');
+                nav.style.background = 'rgba(255, 255, 255, 0.95)';
+            } else {
+                nav.classList.remove('shadow-md');
+                nav.style.background = 'rgba(255, 255, 255, 0.85)';
+            }
+        });
+    </script>
+</body>
+
+</html>
