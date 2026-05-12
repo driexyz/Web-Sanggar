@@ -15,8 +15,7 @@
     <meta property="og:title" content="Sanggar Bundaku - Latihan Tari Anak & Sewa Baju Adat Lengkap Jogja">
     <meta property="og:description"
         content="Pusat pelatihan seni tari anak & sewa baju adat terlengkap di Sleman, Jogja. Lestarikan budaya Nusantara bersama kami.">
-    <meta property="og:image"
-        content="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80">
+    <meta property="og:image" content="./background-image.jpg">
     <meta property="og:url" content="https://sanggarbundaku.com">
     <meta property="og:type" content="website">
 
@@ -28,7 +27,7 @@
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Sanggar Bundaku",
-      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80",
+      "image": "./background-image.jpg",
       "@id": "https://sanggarbundaku.com",
       "url": "https://sanggarbundaku.com",
       "telephone": "+6281904116067",
@@ -157,8 +156,8 @@
         }
 
         .hero-pattern {
-            background-image: linear-gradient(to right, rgba(31, 63, 39, 0.9), rgba(31, 63, 39, 0.7)),
-                url('https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80');
+            background-image: linear-gradient(to right, rgba(31, 63, 39, 0.6), rgba(31, 63, 39, 0.4)),
+                url('./background-image.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -316,12 +315,12 @@
     <header
         class="hero-pattern min-h-[90vh] flex items-center justify-center text-center text-white relative px-4 pt-20">
         <!-- Overlay decorative elements -->
-        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-[rgba(31,63,39,0.3)] to-brand-900"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-[rgba(31,63,39,0.2)] to-brand-900/40"></div>
 
         <div class="relative z-10 max-w-4xl mx-auto" data-aos="fade-up" data-aos-duration="1000">
             <span
                 class="inline-block py-1 px-3 rounded-full bg-accent/20 border border-accent/30 text-accent font-semibold tracking-widest text-xs uppercase mb-6 backdrop-blur-sm">
-                Seni Tari & Rias Tradisional
+                Seni Tari & Persewaan Kostum Tradisional
             </span>
             <h1 class="text-5xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight drop-shadow-lg">
                 Berkreasi & <span class="text-accent italic font-heading">Berprestasi</span>
@@ -343,12 +342,13 @@
                 </a>
             </div>
 
-            <!-- Scroll indicator -->
-            <div
-                class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce flex flex-col items-center opacity-70">
-                <span class="text-xs uppercase tracking-widest mb-2 font-semibold">Scroll</span>
-                <i class="fa-solid fa-chevron-down border-2 p-2 rounded-full"></i>
-            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div
+            class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce flex flex-col items-center opacity-70 z-20">
+            <span class="text-xs uppercase tracking-widest mb-2 font-semibold">Scroll</span>
+            <i class="fa-solid fa-chevron-down border-2 p-2 rounded-full"></i>
         </div>
     </header>
 
